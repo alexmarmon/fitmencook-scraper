@@ -1,0 +1,25 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js",
+    "hasura": "docker-compose up -d"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/runtime": "^7.6.3",
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "graphql-request": "^1.8.2",
+    "lodash": "^4.17.15",
+    "nodemon": "^1.19.4",
+    "prettier": "^1.18.2",
+    "puppeteer": "^1.20.0"
+  }
+}
